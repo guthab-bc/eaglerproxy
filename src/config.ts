@@ -12,7 +12,7 @@ export const config: Config = {
     // set this to false if you are unable to install sharp due to either the use of a platform that does not support native modules
     // or if you are unable to install the required dependencies. this will cause the proxy to use jimp instead of sharp, which may
     // degrade your proxy's performance.
-    useNatives: true,
+    useNatives: false,
     skinServer: {
       skinUrlWhitelist: undefined,
       cache: {
@@ -46,8 +46,8 @@ export const config: Config = {
       originBlacklist: null,
     },
     server: {
-      host: "127.0.0.1",
-      port: 1111,
+      host: "ArgsSurvial.aternos.me",
+      port: 49728,
     },
     tls: undefined,
   },
